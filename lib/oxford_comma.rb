@@ -1,4 +1,4 @@
 def oxford_comma(array)
- "array".split(",")
+ "Tardis, Serenity, Enterprise".split(",")
  array.join("and")
 end
