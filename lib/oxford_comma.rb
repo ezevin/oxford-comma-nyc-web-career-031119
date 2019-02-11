@@ -1,9 +1,8 @@
 def oxford_comma(array)
  "Tardis, Serenity, Enterprise".split(",")
- 
- if array.length == 2
-  return  array.join(" and ")
-end 
+ array.join(" and ")
+ if array.length == 3
+   array.to_sentence
 end
 
 
